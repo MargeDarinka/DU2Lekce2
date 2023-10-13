@@ -1,4 +1,6 @@
-package com.engeto.guest.com.engeto.room;
+package com.engeto.room;
+
+
 
 public class Room {
     private int cisloPokoje;
@@ -63,5 +65,16 @@ public class Room {
         this.cenaPokoje = cenaPokoje;
     }
 
-    //endregion
+    //endregio
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "cislo pokoje=" + cisloPokoje +
+                ", luzka='" + luzka + '\'' +
+                ", balkon='" + balkon + '\'' +
+                ", vyhled=" + vyhled + '\'' +
+                ", cena pokoje=" + vyhled +
+                '}';
+    }
 }
