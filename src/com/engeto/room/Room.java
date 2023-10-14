@@ -20,6 +20,9 @@ public class Room {
         this.cenaPokoje = cenaPokoje;
     }
 
+    public Room() {
+
+    }
     //endregion
 
 
@@ -76,5 +79,11 @@ public class Room {
                 ", vyhled=" + vyhled + '\'' +
                 ", cena pokoje=" + vyhled +
                 '}';
+    }
+
+    public void addRoom(Room room) {
+    }
+
+    public void printAllRoom() {
     }
 }
