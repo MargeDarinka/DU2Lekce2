@@ -28,7 +28,7 @@ public class Main {
 
         Room room1 = new Room(1, 1, true,
                 true, 1000
-        );
+                 );
         Room room2 = new Room(2,1,true,
                 true,1000
                 );
@@ -57,8 +57,7 @@ public class Main {
                 LocalDate.of(2021, 9, 14), false
                 );
 
-        List<Booking> bookingList;
-        bookingList = new ArrayList<>();
+        List<Booking> bookingList= new ArrayList<>();
         bookingList.add(rezervace1);
         bookingList.add(rezervace2);
 

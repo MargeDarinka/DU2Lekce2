@@ -23,6 +23,7 @@ public class Booking {
 
     //endregion
 
+
     //region Přístupové metody
 
     public String getCeleJmeno() {
