@@ -77,7 +77,7 @@ public class Room {
                 ", luzka='" + luzka + '\'' +
                 ", balkon='" + balkon + '\'' +
                 ", vyhled=" + vyhled + '\'' +
-                ", cena pokoje=" + vyhled +
+                ", cena pokoje=" + cenaPokoje +
                 '}';
     }
 

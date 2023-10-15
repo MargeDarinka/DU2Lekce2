@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Booking {
     private String celeJmeno;
-    private int cisloPokoje;
+    private int cisloPokoje ;
     private LocalDate datumPrijezdu;
     private LocalDate datumOdjezdu;
     private boolean pracovniPobyt;
@@ -12,7 +12,9 @@ public class Booking {
     //region Konstruktor
 
 
-    public Booking(String celeJmeno, int cisloPokoje, LocalDate datumPrijezdu, LocalDate datumOdjezdu,boolean pracovniPobyt) {
+    public Booking(String celeJmeno, int cisloPokoje, LocalDate datumPrijezdu, LocalDate datumOdjezdu, boolean pracovniPobyt) {
+        this.celeJmeno = celeJmeno;
+        this.cisloPokoje = cisloPokoje;
         this.datumPrijezdu = datumPrijezdu;
         this.datumOdjezdu = datumOdjezdu;
         this.pracovniPobyt = pracovniPobyt;
@@ -65,4 +67,15 @@ public class Booking {
 
     //endregion
 
+    @Override
+    public String toString() {
+        return "Booking{" +
+                "cele Jmeno=" + celeJmeno +
+                ", cislo pokoje=" + cisloPokoje +
+                ", datum prijezdu='" + datumPrijezdu + '\'' +
+                ", datum odjezdu='" + datumOdjezdu + '\'' +
+                ", pracovní pobyt=" + pracovniPobyt +
+                '}';
+
+    }
 }

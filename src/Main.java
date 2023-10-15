@@ -10,6 +10,7 @@ import java.util.List;
 
 public class Main {
 
+
     public static <bookingList> void main(String[] args) {
         Guest guest1 = new Guest( "Adéla Malíková",
                 LocalDate.of(1993,3,13)
@@ -56,9 +57,11 @@ public class Main {
                 LocalDate.of(2021, 9, 14), false
                 );
 
-        List<Booking> bookingList = new ArrayList<>();
+        List<Booking> bookingList;
+        bookingList = new ArrayList<>();
         bookingList.add(rezervace1);
         bookingList.add(rezervace2);
+
 
         System.out.println("Údaje o rezervacích: "+rezervace1.toString());
         System.out.println("Údaje o rezervacích: "+rezervace2.toString());

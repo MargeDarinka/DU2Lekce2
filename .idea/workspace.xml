@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f5b3db-5c6a-4ec3-a182-3142581f7cd3" name="Changes" comment="Další úpravy - DÚ Lekce 2">
+    <list default="true" id="42f5b3db-5c6a-4ec3-a182-3142581f7cd3" name="Changes" comment="Další úpravy práce - DÚ Lekce 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/engeto/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/booking/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/engeto/guest/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/engeto/guest/Guest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697206730951</updated>
-      <workItem from="1697206731934" duration="25678000" />
+      <workItem from="1697206731934" duration="31272000" />
     </task>
     <task id="LOCAL-00001" summary="Rozpracovaný DÚ Lekce 2">
       <option name="closed" value="true" />
@@ -72,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697226388460</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Další úpravy práce - DÚ Lekce 2">
+      <option name="closed" value="true" />
+      <created>1697300678810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697300678810</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rozpracovaný DÚ Lekce 2" />
     <MESSAGE value="Další úpravy - DÚ Lekce 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Další úpravy - DÚ Lekce 2" />
+    <MESSAGE value="Další úpravy práce - DÚ Lekce 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Další úpravy práce - DÚ Lekce 2" />
   </component>
 </project>
